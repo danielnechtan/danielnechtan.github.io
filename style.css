@@ -1,6 +1,7 @@
-a { color: #204fd5; }
-a:hover, a:visited:hover { color: #204fd5; }
-a:visited { color: #334f83; }
+body { background-color: #3B4647; color: #e9ffbf}
+a { color: #75b300; }
+a:hover, a:visited:hover { color: #5c0099; }
+a:visited { color: #d3ff80; }
 hr { border: 0; margin-top: 2rem; }
 hr, h1, h2 { margin-top: 3rem; }
 li { padding: .125rem 0; }
