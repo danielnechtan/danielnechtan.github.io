@@ -208,12 +208,13 @@ e123eac9a466a7c7.e &#47;var ffs rw,noatime,nodev,nosuid 1 2
 # Shared memory
 
 # Max total shared memory allowed (in pages).
-kern.shminfo.shmall=3145728
+# 1048576 * 4096 = 4294967296 (4GB)
+kern.shminfo.shmall=1048576
 
-# Max shared memory seg size (in bytes)
+# Max shared memory segment size (in bytes)
 # This should be half of available memory
-# 2147483647 * 4096 = 8796093000000
-kern.shminfo.shmmax=2147483647
+# (4GB) 
+kern.shminfo.shmmax=4294967296
 
 # Max number of shared memory identifiers
 kern.shminfo.shmmni=1024
