@@ -64,13 +64,13 @@ cd ok, cwd=&#47;firmware&#47;7.2
 lftp firmware.openbsd.org:&#47;firmware&#47;7.2&#62; mget * 
 </code></pre>
 
-<p>Unmount the disk and keep it for later.</p>
+<p>Unmount the disk and keep it for the first boot after installation.</p>
 
 <h3 id="First%20boot">First boot</h3>
 
 <h4 id="Firmware">Firmware</h4>
 
-<p>Insert your USB key with the firmware, mount it, copy the firmware over and install it:</p>
+<p>Insert your USB disk with the firmware, mount it, copy the firmware over and install it:</p>
 
 <pre><code># dmesg | grep sd
 # mount_msdos &#47;dev&#47;sd3i &#47;mnt
