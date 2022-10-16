@@ -191,12 +191,11 @@ $PREF&#47;xset b off
 # Shared memory
 
 # Max total shared memory allowed (in pages).
-# 1048576 * 4096 = 4294967296 (4Gb)
-kern.shminfo.shmall=1048576
+# 2097152 * 4096 = 8589934592 (8Gb) 
+kern.shminfo.shmall=2097152
 
 # Max shared memory segment size (in bytes)
-# This should be half of available memory
-# (4Gb) 
+# This should be half of available memory (4Gb)
 kern.shminfo.shmmax=4294967296
 
 # Max number of shared memory identifiers
