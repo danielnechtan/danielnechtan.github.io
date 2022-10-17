@@ -391,7 +391,11 @@ bind-key 4S-b           "xbacklight -inc 10 -time 0"
 
 <p>GTK Annoyance - keyboard shortcuts don&#8217;t work as expected (CTRL-A to select all, for example). I have borrowed this from <a href="https://www.c0ffee.net/blog/openbsd-on-a-laptop/">Cullum Smith</a> as I had no idea why it was happening - I don&#8217;t use emacs, I like CTRL-A to work normally in GTK apps, it feels natural!</p>
 
-<p>Create ~&#47;.config&#47;gtk-3.0&#47;settings.ini and add <code>gtk-key-theme-name=Default</code> to it. Check out the other options available from <a href="https://www.c0ffee.net/blog/openbsd-on-a-laptop">Cullum&#8217;s post</a>. </p>
+<p>Create ~&#47;.config&#47;gtk-3.0&#47;settings.ini and add the lines below to it. Check out the other options available from <a href="https://www.c0ffee.net/blog/openbsd-on-a-laptop">Cullum&#8217;s post</a>. </p>
+
+<pre><code>[Settings]
+gtk-key-theme-name=Default
+</code></pre>
 <hr/>
 <hr/>
 <p><a href="/">${HOME}</a></p>
