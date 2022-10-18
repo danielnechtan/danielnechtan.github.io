@@ -82,7 +82,7 @@ lftp firmware.openbsd.org:&#47;firmware&#47;7.2&#62; mget *
 
 <p>Unmount the disk and keep it for the first boot after installation.</p>
 
-<p><a href="newscreen.png"><img src="newscreen.png" alt="OpenBSD+cwm+xterm+tmux+cplay+weechat" /></a></p>
+<p><a href="chat.png"><img src="chat.png" alt="OpenBSD+cwm+xterm+tmux+cplay+weechat" /></a></p>
 
 <h3 id="First%20boot">First boot</h3>
 
@@ -327,12 +327,39 @@ fi
 <pre><code>*visualBell: True
 xterm.loginShell: true
 xterm*faceName: Inconsolata:size=16
-xterm*dynamicColors: true
+! xterm*dynamicColors: true
 xterm*utf8: 2
 xterm*eightBitInput: true
 xterm*scrollBar: false
-xterm*foreground: rgb:a8&#47;a8&#47;a8
-xterm*background: rgb:00&#47;00&#47;00
+! xterm*foreground: rgb:a8&#47;a8&#47;a8
+! xterm*background: rgb:00&#47;00&#47;00
+
+*background             : #171717
+*foreground             : #F8F8F8
+! black
+*color0                         : #171717
+*color8                         : #38252C
+! red
+*color1                         : #D81765
+*color9                         : #FF0000
+! green
+*color2                         : #97D01A
+*color10                        : #76B639
+! yellow
+*color3                         : #FFA800
+*color11                        : #E1A126
+! blue
+*color4                         : #16B1FB
+*color12                        : #289CD5
+! magenta
+*color5                         : #FF2491
+*color13                        : #FF2491
+! cyan
+*color6                         : #0FDCB6
+*color14                        : #0A9B81
+! white
+*color7                         : #EBEBEB
+*color15                        : #F8F8F8
 </code></pre>
 
 <h4 id="cwmrc(5)">cwmrc(5)</h4>
