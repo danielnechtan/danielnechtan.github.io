@@ -29,10 +29,10 @@
     <a href="https://github.com/DanielNechtan">Github</a> &mdash;
     <a href="https://twitter.com/DanielNechtan">Twitter</a> &mdash;
     <a rel="me" href="https://mastodon.sdf.org/@int16h">Mastodon</a> &mdash;
-    <a href="/contact.html">Contact</a>
+    <a href="/about.html">About</a>
   </p>
   <hr/>
-<h1 id="AlphaServer%20ES40%20Emulation">AlphaServer ES40 Emulation</h1>
+<h1 id="alphaserver-es40-emulation">AlphaServer ES40 Emulation</h1>
 
 <p>Emulating an AlphaServer ES40 for running Tru64 UNIX or OpenVMS</p>
 
@@ -44,7 +44,7 @@
 
 <p>We are going to build and configure ES40 on a UNIX-like system without X11 or SDL support as we will be treating it as a virtual server and ES40 doesn&#8217;t support running DECWindows yet anyway (but feel free to configure DECWindows with XDM or X11 Forwarding later).</p>
 
-<h3 id="Prerequisites">Prerequisites</h3>
+<h3 id="prerequisites">Prerequisites</h3>
 
 <p>As per  <a href="https://web.archive.org/web/20090606221007/http://www.es40.org/Building_the_Emulator_on_UNIX%2C_BSD%2C_Linux%2C_etc">the instructions</a>  for building ES40, you will need to make sure the following are available:</p>
 
@@ -59,7 +59,7 @@
 <li>  <a href="http://nongnu.org/vgabios/">vgabios-0.6a.bin</a>  - VGA BIOS</li>
 </ul>
 
-<h3 id="Building">Building</h3>
+<h3 id="building">Building</h3>
 
 <p>Make sure libpcap, OpenSSL&#47;LibreSSL and their respective development files are installed on your system.</p>
 
@@ -251,7 +251,7 @@ pci0.15 = ali_ide
 
 <p>This is a good, simple configuration for your first Emulated ES40 system. You may increase &#8220;<strong>autocreate_size</strong>&#8221; to your liking as well as add, remove or modify any other options (refer to the documentation and the original config file). We are now ready to launch the emulator.</p>
 
-<h3 id="Starting%20the%20Emulator">Starting the Emulator</h3>
+<h3 id="starting-the-emulator">Starting the Emulator</h3>
 
 <pre><code>[int16h@cgxsrv01 es40]$ sudo .&#47;es40 
 
