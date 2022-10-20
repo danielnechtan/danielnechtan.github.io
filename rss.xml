@@ -93,8 +93,12 @@ Network. OpenVPN is also available should you wish to join a network.</p>
 <guid>/code/blaster_analysis.html</guid>
 <link>/code/blaster_analysis.html</link>
 <pubDate>Sat, 10 Apr 2004 00:00:00 +0100</pubDate>
-<title></title>
+<title>W32.Blaster.A &#47; Lovesan Worm Analysis</title>
 <description><![CDATA[
+
+<h1 id="w32.blaster.a-lovesan-worm-analysis">W32.Blaster.A &#47; Lovesan Worm Analysis</h1>
+
+<p>Commented disassembly, c. 2003-2004</p>
 
 <pre><code>.text:00401000 ;
 .text:00401000 ; +-------------------------------------------------------------------------+
